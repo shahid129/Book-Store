@@ -62,3 +62,19 @@ h3 {
     display: flex;
     justify-content: space-between; /* Adjust as needed */
 }
+
+
+/* ----------------------------- product page */
+
+.image-hover {
+    transition: transform 0.2s; /* Smooth transition effect */
+}
+
+.image-hover:hover {
+    transform: scale(1.1); /* Scale the image by 110% on hover */
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
