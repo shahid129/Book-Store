@@ -7,3 +7,48 @@ body {
 .logo {
     width: 180px;
 }
+
+/* index page */
+.hero {
+    background-image: url('../images/book-store-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 80vh;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-theme {
+    padding: 10px 25px !important;
+    border-radius: 0px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    transition: transform 0.6s, box-shadow 0.3s, background-color 0.3s !important;
+    text-decoration: none !important;
+    color: white !important;
+    background-color: #ed3d38 !important;
+    border: 0.6px solid rgb(110, 105, 105) !important;
+}
+
+
+.btn-theme:hover {
+    background-color: white !important;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    color: #ed3d38 !important;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
